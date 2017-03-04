@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>photo-map</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+  <div id="mapembed">
+  <div class="fullbar" style="width:80%;margin:auto;"><h4>How to use this map:</h4>
+  <p>This interactive map shows the Count Us In route and photographs taken by producers during the count.</p>
+  <p>Click on a marker to view the picture at that location.</p>
+  <p style="color:#666;font-size:14px;">Map created by Joshua Yao</p>
+  </div>
+
+  <div id="map" style="width:80%;height:50vh;margin:auto;"></div>
+
+  </div>
+  <!--<div id="street_view"></div>-->
+
+  <script src="script.js"></script>
+  <script src="photos.js"></script>
+  <script src="lightbox-plus-jquery.js"></script>
+  <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS3mBPjzuUBwY3-Kp9RzI9m7GT8cZpN9Y&callback=initmap"></script>
+
+</body>
